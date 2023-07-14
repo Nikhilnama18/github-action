@@ -3,7 +3,7 @@ on: pull_request
 
 jobs:
   Go_file_format_checker:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Go Format Job started"
 
